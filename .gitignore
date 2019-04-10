@@ -1,0 +1,12 @@
+build
+.cache
+*.swp
+__pycache__
+*.pyd
+.spyproject
+.idea
+.coveragec
+.eggs
+*.egg-info
+.virtualenv
+venv

@@ -1,17 +1,21 @@
 # Homomorphic Filter
 
-Homomorphic filter implemented with diferents filters and an option to an external filter.
-    
+Homomorphic filter implemented with differents filters.
+This project is forked from [glasgio/homomorphic-filter](https://github.com/glasgio/homomorphic-filter)
+
 ## High-frequency filters implemented
 
   * butterworth
   * gaussian
-        
-## Example
 
-Homomorphic filter using butterworth high-frequency filter with a = 0.75, b = 1.25, cutoff frequency = 30 and order of filter = 2.
+## How to install?
 
-**Original image**
-![Original](https://i.imgur.com/JXGubCu.jpg) 
-**Filtered image**
-![Filtered](https://i.imgur.com/YOipoZg.png)
+```
+$ python3 -m pip install .
+```
+
+## How to execute example?
+
+```
+$ homomorphic [imgpath]
+```
